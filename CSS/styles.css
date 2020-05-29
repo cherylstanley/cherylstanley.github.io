@@ -1,0 +1,503 @@
+.BUTTON_BYA {
+  background: #3DF6B8;
+  background-image: -webkit-linear-gradient(top, #3DF6B8, #1E62D0);
+  background-image: -moz-linear-gradient(top, #3DF6B8, #1E62D0);
+  background-image: -ms-linear-gradient(top, #3DF6B8, #1E62D0);
+  background-image: -o-linear-gradient(top, #3DF6B8, #1E62D0);
+  background-image: linear-gradient(to bottom, #3DF6B8, #1E62D0);
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 8px;
+  font-family: 'Montserrat', sans-serif;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+
+}
+
+.BUTTON_BYA:hover {
+  background: #30e3cb;
+  background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -moz-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -ms-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
+  text-decoration: none;
+  /*
+
+   background: #6D97DA;
+
+
+   background-image: -webkit-linear-gradient(top, #6D97DA, #11B9EC);
+   background-image: -moz-linear-gradient(top, #6D97DA, #11B9EC);
+   background-image: -ms-linear-gradient(top, #6D97DA, #11B9EC);
+   background-image: -o-linear-gradient(top, #6D97DA, #11B9EC);
+   background-image: linear-gradient(to bottom, #6D97DA, #11B9EC);
+
+   text-decoration: none;*/
+}
+
+.green {
+  width: 98%;
+  border-width: 10px;
+  /*border-color:lightseagreen;*/
+  border-color: #EAF6F6;
+  /*border-top-style:ridge;*/
+  border-top-style: solid;
+}
+
+@keyframes wiz {
+  0% {
+    left: 0px;
+  }
+
+  50% {
+    ;
+    left: 200px;
+  }
+
+  100% {
+    left: 0px;
+  }
+}
+
+img.unicorn {
+  position: relative;
+  animation-name: wiz;
+  animation-duration: 2s;
+  animation-delay: 1s;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+}
+
+
+
+body {
+  color: #40514E;
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+}
+
+h1 {
+  color: #66BFBF;
+  font-size: 5.625rem;
+  margin: 50px auto 0 auto;
+  font-family: 'Sacramento', cursive;
+}
+
+h2 {
+  color: #66BFBF;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5rem;
+  font-weight: normal;
+  padding-bottom: 10px;
+}
+
+h3 {
+  color: #11999E;
+  font-family: 'Montserrat', sans-serif;
+}
+
+p {
+  line-height: 2;
+}
+
+hr {
+  border: dotted #EAF6F6 6px;
+  border-bottom: none;
+  width: 4%;
+  margin: 100px auto;
+}
+
+a {
+  color: #11999E;
+  font-family: 'Montserrat', sans-serif;
+  margin: 10px 20px;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #EAF6F6;
+}
+
+.top-container {
+  /*background-color: #E4F9F5;*/
+  background-color: lightcyan;
+  position: relative;
+  padding-top: 100px;
+}
+
+.middle-container {
+  margin: 100px 0;
+}
+
+.bottom-container {
+  background-color: #66BFBF;
+  /*padding: 50px 0 20px;*/
+}
+
+.skill-row {
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+}
+
+.pro {
+  text-decoration: underline;
+}
+
+.intro {
+  width: 30%;
+  margin: auto;
+}
+
+.contact-message {
+  width: 40%;
+  margin: 40px auto 60px;
+
+}
+
+.copyright {
+  /*  color: #EAF6F6;*/
+  color: white;
+  font-size: 0.75rem;
+  padding: 20px 0;
+}
+
+.top-cloud {
+  position: absolute;
+  right: 300px;
+  top: 40px;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 250px;
+  /*bottom: 300px;*/
+  /*uncomment if want cloud same line as programmer*/
+}
+
+.code-img {
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+}
+
+.chilli-img {
+  width: 25%;
+  float: right;
+  margin-left: 30px;
+}
+
+.btn {
+  background: #11cdd4;
+  background-image: -webkit-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -moz-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -ms-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -o-linear-gradient(top, #11cdd4, #11999e);
+  background-image: linear-gradient(to bottom, #11cdd4, #11999e);
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 8px;
+  font-family: 'Montserrat', sans-serif;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #30e3cb;
+  background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -moz-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -ms-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
+  text-decoration: none;
+}
+
+/****************************************************************************************/
+a {
+  color: #11999E;
+}
+
+.bio {
+  text-align: left;
+  width: 50%;
+}
+
+.bella {
+  padding-top: 100px;
+  margin: auto;
+  height: 400px;
+}
+
+body {
+  margin: 0;
+  /*background-color: #E4F9F5;*/
+  text-align: center;
+  /* only if no width set, if width set use auto left/right and 0 top/bottom*/
+  /* Example of font-embedding. Google font link copied ensures the font is perceived the same way across all devices */
+  font-family: 'Merriweather', serif;
+  /*not a large stack because it's a commonly found font*/
+  /*font-family: Verdana, sans-serif;*/
+  /*  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;*/
+  /*list of fall-backs, Helvetica Neue is Mac-only, Windows might see Arial*/
+}
+
+/*
+.bottom-cloud {
+  position: absolute;
+  /*margin: 30;
+left: 300px;
+bottom: 400px;
+
+/*300px from bottom of container
+}
+*/
+.bottom-container {
+  line-height: 200%;
+  /*margin: auto;*/
+  background-color: lightblue;
+  padding-top: 40px;
+}
+
+.coffee {
+  margin: auto;
+  height: 200px;
+  width: 200px;
+}
+
+.computer {
+  position: center;
+  margin: auto;
+  height: 400px;
+}
+
+.contact-me {
+  margin-top: 100px;
+  background-color: lightcyan;
+  line-height: 200%;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+div {}
+
+.dots {
+  border-bottom-width: 2px;
+  border-bottom-color: #40514E;
+  border-color: gainsboro;
+  border-style: none;
+  border-top-style: dotted;
+  border-width: 10px;
+  height: 1px;
+}
+
+.get-in-touch {
+  padding-top: 10px;
+  background-color: lightcyan;
+}
+
+h1 {
+  /*margin-top: 50px; /* instead of rem because more precise and easier to see in box model inspect  */
+  /*margin: 50px auto 0 auto;*/
+  /* 50px top margin auto means centered right 0 means 0 margin bottom auto means centered left*/
+  font-family: 'Sacramento', cursive;
+  font-size: 5.625rem;
+  /*width: 10%;*/
+  /*margin: 0 auto; /*centers element either horz or vert*/
+  /* top/bottom 0 left/riht auto*/
+  color: #66BFBF;
+  background-color: lightcyan;
+}
+
+h2 {
+  font-family: "Montserrat", sans-serif;
+  /*font-size: 40px;*/
+  font-size: 2rem;
+  color: #66BFBF;
+  background-color: white;
+  text-align: center;
+}
+
+h3 {
+  width: 50%;
+  margin: auto;
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.5rem;
+  color: #11999E;
+}
+
+hr {
+  margin: 100px auto;
+  height: 2px;
+  color: gray;
+}
+
+iframe {
+  margin: auto;
+  height: 1000px;
+  width: 900px;
+}
+
+img {
+  margin: auto;
+}
+
+.middle-container {
+  background-color: white;
+  margin: auto;
+  /*radius: 100px;*/
+}
+
+.profile {
+  padding-top: 100px;
+  background-color: white;
+}
+
+p {
+  word-break: normal;
+  width: 50%;
+  margin: auto;
+}
+
+.pro {
+  text-decoration: underline;
+}
+
+.programmer {
+  /*background-color:lightcyan;*/
+  font-weight: normal;
+}
+
+.skill-para {
+  width: 100%;
+  text-align: left;
+}
+
+.skill-header {
+  width: 100%;
+  margin: auto;
+  background-color: lightcyan;
+  text-align: center;
+}
+
+.skills {
+  margin: auto;
+  width: 100%;
+  padding-top: white;
+  background-color: white;
+}
+
+.spanish_img {
+  margin-left: 40px;
+  display: inline-block;
+  float: right;
+  width: 40%;
+}
+
+.skill-row1 {
+  width: 70%;
+  margin: auto;
+  text-align: left;
+  line-height: 2;
+  /*  padding-bottom: 100px;*/
+  padding-bottom: 100px;
+  display: inline-block;
+}
+
+/*
+.skill-row2  {
+
+width: 90%;
+
+  margin: 100px 200px 100px auto;
+  text-align: left;
+  line-height: 2;
+
+
+
+}
+*/
+.susana {
+  clear: right;
+}
+
+.top-container {
+  line-height: 2;
+  position: relative;
+  /* top containerneeds to be relative s that clouds can be moved
+  relative to it*/
+}
+
+/*
+.top-cloud {
+  position: absolute;
+  /*left: 400px;
+  right: 300px;
+  /*right margin of 300px; (300px from right of container)
+  top: 50px;
+}*/
+.unicorn {
+  animation-name: uni;
+  height: 100px;
+}
+
+.web_img {
+  /*computer picture*/
+  display: block;
+  width: 30%;
+  /* 25% of skill row*/
+  margin-right: 40px;
+  display: inline-block;
+  float: left;
+}
+
+.webstar {
+  display: inline-block;
+  margin-top: inherit;
+  margin-right: 100px;
+  float: right;
+  /*if button uncheck*/
+  /*margin-right: 60px;*/
+  text-decoration: underline;
+}
+
+/* NOTES===================================================================*/
+/* Obtained 5.625em because 100% = 16px. 90px (Desired) / 16 = 5.625em = 562.5%;*/
+/* Note: Use Percentage to dynamically change font when users
+change visual ompairment settings on browser, doesn't matter for users zoomig in though*/
+/*100%= 16px ; 90/16=5.625=562.5%
+
+/* Another dynamic change font method is using "em"
+
+1em = 16px =
+90px = 5.625em; (90/16=5.625)
+em and Percentages have samee efect.
+*/
+/*em and Percentage are inherited so changes in other items are added onto
+other items. Unlike pixels, where setting font size in pixels for one item
+does not affect all other elements*/
+/*NOW in current version CSS using rem instead of em says the size 5.625em is the
+root em and doesn't get affected by code in other elements.
+So make sure to use REM! */
+/*     =>   End of em vs Percentage notes      */
+/*======================================================================*/
+/* Notes
+Font-family
+monospace: every character takes same amount of space (used for code)
+cursive (hand-writing)/fantasy(Avatar) have low readability not used for text body
+
+serif/sans-serif are mainly used
+serif: includes "feet" | sans-serif no "feet"
+
+
+Important: if a font included in your website is not offered in another OS
+
+=>     End of Font-family  notes
+
+*/
