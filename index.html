@@ -8,13 +8,13 @@
   </div>
 
   <link rel="stylesheet" href="CSS/styles.css">
-  <link rel="icon" href="Cbetter3.ico">
-  <%= favicon_link_tag "/apple-touch-icon.png", rel: "apple-touch-icon" %>
+    <%= favicon_link_tag "/apple-touch-icon.png", rel: "apple-touch-icon" %>
 <% %w(76 120 152 180).each do |size| %>
   <%= favicon_link_tag "/apple-touch-icon-#{size}x#{size}.png", rel: 'apple-touch-icon', sizes: "#{size}x#{size}" %>
 <% end %>
 
 <%= favicon_link_tag "/favicon.ico" %>
+  <link rel="icon" href="Cbetter3.ico">
   <link href="https://fonts.googleapis.com/css?family=Merriweather|Montserrat|Sacramento" rel="stylesheet">
   <!-- If users don't already have this installed it will go to the link and grab it for them-->
 
