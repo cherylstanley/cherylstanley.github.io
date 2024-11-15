@@ -409,6 +409,41 @@ p {
   padding-bottom: 100px;
   display: inline-block;
 }
+.skills1 {
+  display: flex;
+  justify-content: space-between;
+  height: 60px;
+}
+
+.skills1 img:hover {
+  transform: scale(1.05);
+}
+
+.skills2 {
+  color: #11cdd4;
+  font-size: 14px;
+  font-family: "Roboto", system-ui;
+  font-weight: bold;
+  display: inline;
+}
+
+.flexy {
+  align-items: center;
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
+
+.skills {
+  display: none;
+}
+
+.skills2 {
+  font-size: 10px;
+}
+
+.skill-issue {
+  margin-top: -30px;
+}
 
 /*
 .skill-row2  {
