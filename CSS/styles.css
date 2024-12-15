@@ -58,36 +58,36 @@
   100% { border-color: transparent }
 } */
 
-@keyframes blinking2 {
+@keyframes blinking {
   0% { border-color: transparent }
   50% { border-color: #11999E }
   100% { border-color: transparent }
 }
 
-.title {
-  color: #FD6492;
-  font-size: 50px;
-  font-family: "Pixelify Sans", sans-serif;
-  font-weight: 100;
-  grid-column: 1;
-}
-
-.title2 {
-  color: #686264;
-  font-size: 50px;
-  font-family: "Roboto", system-ui;
-  font-weight: 100;
-  grid-column: 1;
-}
 
 .typed-out {
   overflow: hidden;
   width: 0;
   border-right: .15em solid transparent;
-  font-size: 30px;
+  font-size: 50px;
   white-space: nowrap;
-  animation: typing 3s steps(23, end) forwards, blinking2 .4s 5;
+  animation: typing 3s steps(23, end) forwards, blinking .8s 5;
 }
+
+
+.type-container {
+  display: inline-block;
+}
+
+
+.typeformat {
+  /* color: #686264;
+  font-size: 14px;
+  font-family: "Roboto", system-ui;
+  font-weight: normal; */
+  display: inline;
+}
+
 
 @keyframes wiz {
   0% {
