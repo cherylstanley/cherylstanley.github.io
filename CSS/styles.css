@@ -86,7 +86,7 @@
   border-right: .15em solid transparent;
   font-size: 30px;
   white-space: nowrap;
-  animation: typing 3s steps(23, end) forwards, blinking2 .4s 2;
+  animation: typing 3s steps(23, end) forwards, blinking2 .4s 5;
 }
 
 @keyframes wiz {
