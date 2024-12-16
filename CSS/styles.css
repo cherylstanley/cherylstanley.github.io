@@ -253,7 +253,7 @@ a:hover {
   right: 300px;
   top: 40px;
 }
-.top-sparkle {
+.bottom-sparkle {
   height: 200px;
   position: absolute;
   right: 280px;
@@ -268,7 +268,7 @@ a:hover {
 }
 
 
-.bottom-sparkle {
+.top-sparkle {
   height: 200px;
   position: absolute;
   left: 250px;
