@@ -52,25 +52,29 @@
 
       <h2>Hello.</h2>
       <p class="bio"> Welcome to my page! I'm Cheryl. My hobbies including writing, drawing, singing and coding. I also like volunteering, and learning new languages in my spare time. 
-        <br/></br>
-        I am currently pursuing my Master's degree in Computer Science at the  <br><b>University of California San Diego </b>🔱</br> (Go Tritons!) and did my undergraduate studies at 
-         the <b>University of California Santa Barbara</b>🌊 in Computer Engineering! </p>
+        I am currently pursuing my Master's degree in Computer Science at the  <b>University of California San Diego </b>🔱 (Go Tritons!) and did my undergraduate studies at 
+         the <b>University of California Santa Barbara</b> 🌊 in Computer Engineering. </p>
       <br/> <br/> <br/>
       <p> I ❤️ animals and coffee is my favorite beverage! </p>
-      <img class="bella" src="images/bella.jpg" , alt="bella.png">
-      <p>This is my puppy, Bella!!😊</p>
+      <!-- <br/> -->
+      <!-- <button class = "BUTTON_BYA" onclick="showFurryFriendToggle()">Click to see a furry friend! 🐶</button> -->
+      <!-- <div id = "furry-friend"> -->
+        <img class="bella" src="images/bella.jpg" , alt="bella.png">
+        <p>This is my puppy, Bella!!😊</p>
+      <!-- </div> -->
+      
     </div>
     <hr class="dots">
     <hr class = "green" />
 
     <div class="skills">
-      <h2>My Skills.</h2>
+     <h2>My Skills </h2>
       <div class="skill-row1">
         <img class="web_img" src="https://t3.ftcdn.net/jpg/01/72/37/74/240_F_172377426_0Gx70J0dEXYo4ZSPVU10N2pgrJWhxhhn.jpg" alt="">
         <h3 class="skill-header">Software Development</h3>
-        <p class = "skill-para">I've been coding since high school, because I like creating things and have a lot of fun working with code. As a result of my extensive software and hardware knowledge from my various software development internships and my undergraduate education in Computer Engineering, I feel I am uniquely qualified to traverse the areas 
-          of software / hardware design and data science. <br/> <br/> Their implications for the growing fields of artificial intelligence and component manufacturing are something I would like to focus on and pursue both academically and in a career setting.
-          I am currently pursuing a depth in AI for my Masters degree, and some of my search interests include NLP, Computer Vision, and algorithmic fairness. <br /><br /></p><!--Here's my very first website, coded in HTML.-->
+        <p class = "skill-para">I've been coding since high school, because I like creating things and have a lot of fun working with code. As a result of my extensive software and hardware knowledge from my various software development internships and project experiences, and my undergraduate education in Computer Engineering, I feel I am uniquely qualified to traverse the areas 
+          of software / hardware design and data science. <br/> <br/> Their implications for the growing fields of artificial intelligence and component manufacturing are paths I would like to focus on and pursue both academically and in a career setting.
+          <br/><br/>I am currently pursuing a depth in Artificial Intelligence for my Masters degree, and some of my research interests include Natural Language Processing, Computer Vision, and Algorithmic Fairness. <br /><br /></p><!--Here's my very first website, coded in HTML.-->
 
         <!-- <br> -->
       </div>
@@ -115,7 +119,7 @@
     <hr class="dots">
     <hr class = "green" />
     <div class="skills">
-      <h2>Experience.</h2>
+      <h2 class = "section-header">Experience</h2>
       <div class="skill-row1">
         <img class="web_img" src="images/images/UCSB.png" alt="">
         <h3 class="skill-header">Undergraduate Research Assistant - UCSB Jeong Lab (2023 - 2024)</h3>
@@ -123,7 +127,7 @@
 algorithmic bias, continuing on Jeong's previous work, linked here:  <a href = "resources/FATED-2022_paper_Jeong_Racial_Bias_ML_Algs (1).pdf">Fairness in Education</a>
 
  <br/><br/>         
-For my research, I created custom prediction tasks using Folktables Python package, randomly sampled percentages of approx. 100K
+For my research, I created custom prediction tasks using the Folktables Python package, randomly sampled percentages of approx. 100K
 different racial data points, calculated fairness metrics, visualized data, and replicated Dr. Jeong's research results on a
 mixed data, large scale dataset
 
@@ -138,7 +142,7 @@ mixed data, large scale dataset
         <p class = "skill-para">During my extended internship at LLNL (initially for only a summer I was able to extend it for 3 years while completing my undergraduate degree) I assisted the team at SmartIT with numerous tasks, 
           features, and bugfixes within various apps used by the Computing Department at the lab. <br/><br/> Among these were the CAAS (Classified Account Authorization Service) and ACE (AWS Compliance Enforcment) applications, both of which 
           are used by thousands of government employees at the lab. <br/><br/> Some of my responsibilities included assisting in the conversion process of the CAAS application from AngularJS framework l to the newest update Angular 2+, creating
-          a lambda function which cleans up database records and programming data ingestor receiving payloads from SQS, which in turn wrote to DynamoDB as a way to record remediation status.
+          a lambda function which <b>cleans up database records</b> and <b>programming a data ingestor receiving payloads from SQS</b>, which in turn wrote them to DynamoDB as a way to record remediation status.
           
           <br /><br /></p><!--Here's my very first website, coded in HTML.-->
 
@@ -150,7 +154,7 @@ mixed data, large scale dataset
     <hr class = "green" />
 
       <div class="skills">
-      <h2>Education.</h2>
+      <h2 class = "section-header">Education.</h2>
       <div class="skill-row1">
         <img class="web_img" src="images/images/UCSD.png" alt="">
         <h3 class="skill-header">UCSD - M.S. <i> Computer Science</i>  (2024 - present)</h3>
@@ -172,7 +176,7 @@ mixed data, large scale dataset
       <hr class = "green" />
 
       <div class="skills">
-      <h2>Projects</h2>
+      <h2 class = "section-header">Projects</h2>
           
       <div class="skill-row1">
         <img class="web_img" src="images/images/artera.png" alt="">
@@ -194,9 +198,9 @@ The app then takes several automatic actions based on the level predicted includ
         <h3 class="skill-header">ACE - <i>AWS Compliance Enforcment</i> (2022-2023)</h3>
         <p class = "skill-para">The ACE (AWS Compliance Enforcement) application uses Angular to enforce compliance guidelines for in house AWS accounts for government employees. <br/><br/>
 
-I gained experience by helping create the lab's first fully cloud based web app from scratch and utilizing cloud computing features from AWS (Amazon Web Services) such as Lambda, DynamoDB, and SNS. <br/><br/>
+I gained experience by helping create the lab's <b>first fully cloud based web app</b> from scratch and utilizing cloud computing features from AWS (Amazon Web Services) such as Lambda, DynamoDB, and SNS. <br/><br/>
 
-Some of my contributions include creating an AWS Lambda function which cleans up database records automatically at specified intervals and upon detecting changes, creating SAM (Serverless Application Model) applications to deploy AWS pipelines, programming a data ingestor which received payloads from SQS and writing them to DynamoDB as a way to record remediation status, and optimizing website performance by using AWS Cloudwatch and Lambda for an improved user experience.
+Some of my contributions include creating an AWS Lambda function which cleans up database records automatically at specified intervals and upon detecting changes, creating SAM (Serverless Application Model) applications to deploy AWS pipelines, programming a data ingestor which received payloads from SQS and writing them to DynamoDB as a way to record remediation status, and optimizing website performance by using AWS Cloudwatch and Lambda for an improved user experience. 
           <br /><br /></p><!--Here's my very first website, coded in HTML.-->
 
 
@@ -206,7 +210,7 @@ Some of my contributions include creating an AWS Lambda function which cleans up
         <img class="web_img" src="images/images/LLNL.png" alt="">
         <h3 class="skill-header">CAAS - <i> (Classified Account Authorization Service)</i> <br/>(2020-2022)</h3>
         <p class = "skill-para">The CAAS (Classified Account Authorization Service) application involves managing classified accesses and handling requests for elevated privileges for government employees, interfacing between various hierarchical levels for employees to request permissions. <br/><br/>
-In this project, which I worked on as an intern at LLNL, incorporated skillsets in the Angular CLI as well as Azure DevOps and DynamoDB to add new features including a Changelogs Page which automatically queries the database for new additions for bugfixes and updates and automatically updates the web server, as well as working on a team to help systematically upgrade the entire application from AngularJS to Angular2+ through hybridization and functionality changes. <br/><br/>
+In this project, which I worked on as an intern at LLNL, incorporated skillsets in the Angular CLI as well as Azure DevOps and DynamoDB to add new features including a Changelogs Page which automatically <b>queries the database</b> for new additions for bugfixes and updates and automatically <b>updates the web server</b>, as well as working on a team to help systematically upgrade the entire application from AngularJS to Angular2+ through hybridization and functionality changes. <br/><br/>
 I also gained experience with using Entity Frameworks for creating visual representations of views/models of databases, API calls and services, front-end, web api and backend development to make updates to the application, and optimized and updated the application so that new features from the updated framework could be leveraged to make development more efficient within the CAAS application.
           <br /><br /></p><!--Here's my very first website, coded in HTML.-->
 

@@ -304,12 +304,18 @@ a {
 .bio {
   text-align: left;
   width: 50%;
+  /* background-color: lightcyan;
+  padding: 30px; */
+
 }
 
 .bella {
+  /* padding-top:50px; */
   padding-top: 100px;
   margin: auto;
   height: 400px;
+  /* height: 300px; */
+
 }
 
 body {
@@ -377,6 +383,17 @@ div {}
 .get-in-touch {
   padding-top: 10px;
   background-color: lightcyan;
+}
+
+.section-header {
+  font-size: 40px;
+  background-color:   hsl(180, 69%, 80%);
+  color: #11999E;
+  font-family: "Merriweather", sans-serif;
+  padding:40px
+
+  
+
 }
 
 h1 {
@@ -467,9 +484,10 @@ p {
 
 .skills {
   margin: auto;
-  width: 100%;
+  /* width: 100%; */
   padding-top: white;
   background-color: white;
+  
 }
 
 .spanish_img {
