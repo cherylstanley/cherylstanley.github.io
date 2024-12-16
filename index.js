@@ -172,32 +172,13 @@ function carousel() {
     setTimeout(carousel, 2000);
 }
 
-// document.addEventListener("DOMContentLoaded", function () {
-//     const typing1 = document.getElementById("typing-1");
-//     const typing2 = document.getElementById("typing-2");
-//     const texts1 = ["Hi I'm"];
-//     const texts2 = ["a programmer"];
-//     let i = 0, j = 0;
 
-//     const typeText = (element, texts, callback) => {
-//         let charIndex = 0;
-//         element.textContent = ''; // Clear existing text
-//         element.classList.add("blinking-cursor");
-
-//         const interval = setInterval(() => {
-//             if (charIndex < texts[i].length) {
-//                 element.textContent += texts[i][charIndex++];
-//             } else {
-//                 clearInterval(interval);
-//                 element.classList.remove("blinking-cursor");
-//                 if (callback) callback();
-//             }
-//         }, 100); // Adjust typing speed (100ms per character)
-//     };
-
-//     typeText(typing1, texts1, () => {
-//         setTimeout(() => {
-//             typeText(typing2, texts2);
-//         }, 500); // Add a small delay before starting the second text
-//     });
-// });
+var showFurryFriend = false;
+function showFurryFriendToggle() {
+  showFurryFriend = !showFurryFriend;
+  if (showFurryFriend) {
+    document.getElementById("furry-friend").style.display = "block";
+  } else {
+    document.getElementById("furry-friend").style.display = "none";
+  }
+}
