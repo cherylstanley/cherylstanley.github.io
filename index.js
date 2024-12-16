@@ -26,7 +26,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
 var b = document.body;
 
-var imgurl = "images/images/fairydust (2).png";
+var imgurl = "images/images/fairydust/fairydust blue.png";
 
 var size = [20, 30];
 
