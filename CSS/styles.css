@@ -254,10 +254,10 @@ a:hover {
   top: 40px;
 }
 .top-sparkle {
-  height: 100px;
+  height: 200px;
   position: absolute;
-  right: 300px;
-  top: 40px;
+  right: 280px;
+  top: 840px;
 }
 
 .bottom-cloud {
@@ -269,7 +269,7 @@ a:hover {
 
 
 .bottom-sparkle {
-  height: 100px;
+  height: 200px;
   position: absolute;
   left: 250px;
   /*bottom: 300px;*/
