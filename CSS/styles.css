@@ -420,6 +420,17 @@ h2 {
   
 }
 
+.typewriter-effect {
+  font-size: 2rem; /* Adjust size */
+  color: #333; /* Adjust color */
+  display: inline; /* Ensure inline flow */
+}
+
+.typewriter {
+  /* color: #ffd700; Highlight typewriter text */
+  font-weight: bold; /* Optional styling */
+}
+
 h3 {
   width: 50%;
   margin: auto;
