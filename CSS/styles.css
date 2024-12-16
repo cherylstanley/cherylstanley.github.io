@@ -337,6 +337,34 @@ a {
 
 }
 
+.cheryl {
+  font-weight: bolder;
+
+
+}
+
+.nav {
+  display: flex;
+  gap: 15%;
+  color: black;
+  font-size: 17px;
+  font-family: "Roboto", system-ui;
+  font-weight: normal;
+  position: fixed;
+  z-index: 1000;
+  top: 0;
+  overflow: hidden;
+  background-color: white;
+  /* padding: 20px; */
+  width: 100%;
+  /* margin-left: -235px; */
+  opacity: 0.8;
+}
+
+.pink-space {
+  font-size: 10px;
+}
+
 body {
   margin: 0;
   /*background-color: #E4F9F5;*/
