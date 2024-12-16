@@ -97,7 +97,6 @@
   }
 
   50% {
-    ;
     left: 200px;
   }
 
@@ -135,6 +134,11 @@ img.unicorn {
   animation-timing-function: ease-in-out;
 }
 
+img.computer {
+  position: center;
+  margin: auto;
+  height: 600px;
+}
 
 
 body {
@@ -249,8 +253,23 @@ a:hover {
   right: 300px;
   top: 40px;
 }
+.top-sparkle {
+  height: 100px;
+  position: absolute;
+  right: 300px;
+  top: 40px;
+}
 
 .bottom-cloud {
+  position: absolute;
+  left: 250px;
+  /*bottom: 300px;*/
+  /*uncomment if want cloud same line as programmer*/
+}
+
+
+.bottom-sparkle {
+  height: 100px;
   position: absolute;
   left: 250px;
   /*bottom: 300px;*/
