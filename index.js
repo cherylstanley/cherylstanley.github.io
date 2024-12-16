@@ -1,28 +1,51 @@
-
-
-
-document.addEventListener("DOMContentLoaded", function() {
+document.addEventListener("DOMContentLoaded", function () {
   // Select the target container for the typewriter effect
-  const container = document.getElementById('typewriter-container');
-  
-  // Initialize the Typewriter instance
-  const typewriter = new Typewriter(container, {
-    loop: true, // Enable looping
-    delay: 75,  // Typing speed in milliseconds
+  const container = document.getElementById("typewriter-container");
+
+  // Initialize the Typewriter instance for the first sequence
+  const firstTypewriter = new Typewriter(container, {
+    loop: false, // Disable looping for the first sequence
+    delay: 75,   // Typing speed in milliseconds
   });
 
-  // Define the typewriter sequence
-  typewriter
-    .typeString('a developer.')
+  // Define the first sequence with the 6-second pause
+  firstTypewriter
+    .pauseFor(6000)  // Pause for 6 seconds before starting
+    .typeString("a developer.")
     .pauseFor(1500)
     .deleteChars(10)
-    .typeString('designer.')
+    .typeString("designer.")
     .pauseFor(1500)
     .deleteChars(10)
-    .typeString(' problem solver.')
+    .typeString(" problem solver.")
     .pauseFor(1500)
-    .start();  // Start the animation
+    .start()
+    .callFunction(() => {
+      // Trigger the looping sequence after the first sequence finishes
+      startLoopingSequence();
+    });
+
+  // Function to start the looping sequence
+  function startLoopingSequence() {
+    const loopTypewriter = new Typewriter(container, {
+      loop: true, // Enable looping for this sequence
+      delay: 75,  // Typing speed in milliseconds
+    });
+
+    // Define the looping sequence (without the 6-second pause)
+    loopTypewriter
+      .typeString("a developer.")
+      .pauseFor(1500)
+      .deleteChars(10)
+      .typeString("designer.")
+      .pauseFor(1500)
+      .deleteChars(10)
+      .typeString(" problem solver.")
+      .pauseFor(1500)
+      .start();  // Start the looped animation
+  }
 });
+
 
 var b = document.body;
 
