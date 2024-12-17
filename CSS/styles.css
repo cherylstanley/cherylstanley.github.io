@@ -201,7 +201,8 @@ a {
 }
 
 a:hover {
-  color: #EAF6F6;
+  /* color: #EAF6F6; */
+  color: #4fbdbd;
 }
 
 .top-container {
@@ -254,10 +255,13 @@ a:hover {
   top: 40px;
 }
 .bottom-sparkle {
-  height: 200px;
+  /* height: 200px; */
+  height: 20%;
   position: absolute;
-  right: 280px;
-  top: 840px;
+  /* right: 280px; */
+  right: 15%;
+  /* top: 840px; */
+  top: 80%;
 }
 
 .bottom-cloud {
@@ -269,9 +273,12 @@ a:hover {
 
 
 .top-sparkle {
-  height: 200px;
+  /* height: 200px; */
+  height: 20%;
   position: absolute;
-  left: 250px;
+  /* left: 250px; */
+  left: 19%;
+
   /*bottom: 300px;*/
   /*uncomment if want cloud same line as programmer*/
 }
@@ -317,7 +324,7 @@ a:hover {
 
 /****************************************************************************************/
 a {
-  color: #11999E;
+  color:  #11999E;
 }
 
 .bio {
@@ -336,16 +343,26 @@ a {
   /* height: 300px; */
 
 }
+/*  */
+/* .satisfy-regular {
+  font-family: "Satisfy", cursive;
+  font-weight: 400;
+  font-style: normal;
+} */
 
 .cheryl {
-  font-weight: bolder;
+font-weight: bolder;
+color: #11999E;
 
-
+/* font-family:'Satisfy', cursive; */
+font-size: 1.2rem;
+/* font-family: "Doto", sans-serif; */
+/* font-weight: 800;  */
 }
 
 .nav {
   display: flex;
-  gap: 15%;
+  gap: 10%;
   color: black;
   font-size: 17px;
   font-family: "Roboto", system-ui;
