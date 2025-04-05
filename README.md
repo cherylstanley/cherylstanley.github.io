@@ -1,1 +1,3 @@
-# cherylstanley.github.io
+# CherylWebSite
+cherylstanley.github.io
+https://cherylstanley.github.io/CherylWebSite/
