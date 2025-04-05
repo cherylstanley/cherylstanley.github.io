@@ -1,3 +1,2 @@
-# CherylWebSite
-cherylstanley.github.io
-https://cherylstanley.github.io/CherylWebSite/
+# Here is the link to my Personal Portfolio!
+https://cherylstanley.github.io/
